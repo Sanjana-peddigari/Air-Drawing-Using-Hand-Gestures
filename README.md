@@ -1,6 +1,6 @@
 # Air-Drawing-Using-Hand-Gestures ✋🎨
 
-Draw in the air using hand gestures with real-time hand tracking powered by Python, OpenCV, and MediaPipe.
+Draw in the air using hand gestures with real-time hand tracking powered by Python, OpenCV, and MediaPipe. 
 
 ## Features
 
