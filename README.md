@@ -37,8 +37,8 @@ air-draw/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/air-draw.git
-   cd air-draw
+   git clone https://github.com/Sanjana-peddigari/air-drawing-using-hand-gestures.git
+   cd air-drawing-using-hand-gestures
    ```
 
 2. Install dependencies:
@@ -49,7 +49,7 @@ air-draw/
 ## Usage
 
 ```bash
-python main.py
+py main.py
 ```
 
 A webcam window titled **"Air Draw"** will open. Show your hand to the camera and start drawing!
@@ -59,6 +59,14 @@ A webcam window titled **"Air Draw"** will open. Show your hand to the camera an
 - **`hand.py`** uses MediaPipe's Hands solution to detect 21 landmarks per hand and draws the skeleton overlay each frame.
 - **`colors.py`** stores colors as a simple name → BGR dict and renders them as circles along the right edge of the frame; it also hit-tests the fingertip position against each circle.
 - **`main.py`** ties it together: it tracks the index fingertip and thumb tip, measures the pinch distance to decide when to draw, and merges the persistent drawing canvas onto the live camera feed each frame.
+
+- The webcam captures live video frames.
+- MediaPipe detects the hand and extracts 21 hand landmarks.
+- The index fingertip controls the drawing cursor.
+- A pinch gesture between the thumb and index finger starts drawing.
+- Users can select different colors from the on-screen color palette.
+- The drawing is stored on a virtual canvas and displayed over the live camera feed.
+- Cursor smoothing is applied to reduce jitter and improve the drawing experience.
 
 ## Requirements
 
