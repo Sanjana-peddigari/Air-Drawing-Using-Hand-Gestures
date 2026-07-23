@@ -98,8 +98,6 @@ A webcam window titled **"Air Draw"** will open. Show your hand to the camera, m
 
 ## Requirements
 
-See [requirements.txt](requirements.txt):
-
 - opencv-python
 - mediapipe
 - numpy
