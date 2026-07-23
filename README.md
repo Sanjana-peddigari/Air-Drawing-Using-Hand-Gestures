@@ -27,9 +27,11 @@ Draw in the air using hand gestures with real-time hand tracking powered by Pyth
 | Clear canvas | Press `C` or `Space` |
 | Quit | Press `Q` or `Esc` |
 
-![image1](images/Image-1.png)
-![image2](images/Image-2.png)
-![image3](images/Image-3.png)
+<p align="center">
+  <img src="images/Image-1.png" width="200">
+  <img src="images/Image-2.png" width="200">
+  <img src="images/Image-3.png" width="200">
+</p>
 
 ## Project Structure
 
